@@ -15,7 +15,6 @@ namespace kalkulaator_console
             double arv1 = 0;
             double arv2 = 0;
             string teheAsString;
-            kalkulaator_console.Calculator calc = new Calculator();
             Console.WriteLine("Sisesta arv1: ");
             arv1AsString = Console.ReadLine();
             Console.WriteLine("Sisesta arv2: ");
@@ -24,27 +23,11 @@ namespace kalkulaator_console
             teheAsString = Console.ReadLine();
             arv1 = double.Parse(arv1AsString);
             arv2 = double.Parse(arv2AsString);
-            if (teheAsString == "+")
-            {
-                Console.WriteLine(calc.Liita(arv1, arv2));
-            }
-
-            if (teheAsString == "-")
-            {
-                Console.WriteLine(calc.Lahuta(arv1, arv2));
-
-
-            }
-
-            if (teheAsString == "*")
-            {
-                Console.WriteLine(calc.Korruta(arv1, arv2));
-            }
-
-            if (teheAsString == ":")
-            {
-                Console.WriteLine(calc.Jaga(arv1, arv2));
-            }
+            /*
+                        Calculator calculator = new Calculator();
+                        Console.WriteLine(calculator.calc(teheAsString, arv1, arv2));
+            */
+            Console.WriteLine(Calculator.calc2(teheAsString, arv1, arv2));
 
         }
     }

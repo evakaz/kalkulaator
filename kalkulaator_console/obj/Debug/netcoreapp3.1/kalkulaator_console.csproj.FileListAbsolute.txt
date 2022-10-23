@@ -12,3 +12,17 @@ C:\Users\Eva\source\repos\kalkulaator_console\kalkulaator_console\obj\Debug\netc
 C:\Users\Eva\source\repos\kalkulaator_console\kalkulaator_console\obj\Debug\netcoreapp3.1\kalkulaator_console.dll
 C:\Users\Eva\source\repos\kalkulaator_console\kalkulaator_console\obj\Debug\netcoreapp3.1\kalkulaator_console.pdb
 C:\Users\Eva\source\repos\kalkulaator_console\kalkulaator_console\obj\Debug\netcoreapp3.1\kalkulaator_console.genruntimeconfig.cache
+C:\Users\lexae\source\repos\kalkulaator\kalkulaator_console\bin\Debug\netcoreapp3.1\kalkulaator_console.exe
+C:\Users\lexae\source\repos\kalkulaator\kalkulaator_console\bin\Debug\netcoreapp3.1\kalkulaator_console.deps.json
+C:\Users\lexae\source\repos\kalkulaator\kalkulaator_console\bin\Debug\netcoreapp3.1\kalkulaator_console.runtimeconfig.json
+C:\Users\lexae\source\repos\kalkulaator\kalkulaator_console\bin\Debug\netcoreapp3.1\kalkulaator_console.runtimeconfig.dev.json
+C:\Users\lexae\source\repos\kalkulaator\kalkulaator_console\bin\Debug\netcoreapp3.1\kalkulaator_console.dll
+C:\Users\lexae\source\repos\kalkulaator\kalkulaator_console\bin\Debug\netcoreapp3.1\kalkulaator_console.pdb
+C:\Users\lexae\source\repos\kalkulaator\kalkulaator_console\obj\Debug\netcoreapp3.1\kalkulaator_console.csproj.AssemblyReference.cache
+C:\Users\lexae\source\repos\kalkulaator\kalkulaator_console\obj\Debug\netcoreapp3.1\kalkulaator_console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lexae\source\repos\kalkulaator\kalkulaator_console\obj\Debug\netcoreapp3.1\kalkulaator_console.AssemblyInfoInputs.cache
+C:\Users\lexae\source\repos\kalkulaator\kalkulaator_console\obj\Debug\netcoreapp3.1\kalkulaator_console.AssemblyInfo.cs
+C:\Users\lexae\source\repos\kalkulaator\kalkulaator_console\obj\Debug\netcoreapp3.1\kalkulaator_console.csproj.CoreCompileInputs.cache
+C:\Users\lexae\source\repos\kalkulaator\kalkulaator_console\obj\Debug\netcoreapp3.1\kalkulaator_console.dll
+C:\Users\lexae\source\repos\kalkulaator\kalkulaator_console\obj\Debug\netcoreapp3.1\kalkulaator_console.pdb
+C:\Users\lexae\source\repos\kalkulaator\kalkulaator_console\obj\Debug\netcoreapp3.1\kalkulaator_console.genruntimeconfig.cache

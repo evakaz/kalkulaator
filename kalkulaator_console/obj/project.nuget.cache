@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "MgNT1vyhNNFocl5T1cSuR1P6HvnO36XOAfnLzQrDo9n51rpMwQh0fMjnKSq0YwIGeol3COFvngUQlPuVu11jRg==",
+  "dgSpecHash": "4qk6RwEK2+3Yaqjb2Qluggf5WNRhFgN0CU9R9dd7R1PxoDCe7jPm2IihJFjHBzJoHrB4qTu1Jh/J7d+Mlb0Ujg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Eva\\source\\repos\\kalkulaator_console\\kalkulaator_console\\kalkulaator_console.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\lexae\\source\\repos\\kalkulaator\\kalkulaator_console\\kalkulaator_console.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lexae\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512"
+  ],
   "logs": []
 }
