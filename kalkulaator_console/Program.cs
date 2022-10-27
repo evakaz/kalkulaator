@@ -17,18 +17,36 @@ namespace kalkulaator_console
             string teheAsString;
             Console.WriteLine("Sisesta arv1: ");
             arv1AsString = Console.ReadLine();
+            try
+            {
+                arv1 = double.Parse(arv1AsString);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
             Console.WriteLine("Sisesta arv2: ");
             arv2AsString = Console.ReadLine();
+            try
+            {
+                arv2 = double.Parse(arv2AsString);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
             Console.WriteLine("Sisesta tehe: ");
             teheAsString = Console.ReadLine();
-            arv1 = double.Parse(arv1AsString);
-            arv2 = double.Parse(arv2AsString);
-            /*
-                        Calculator calculator = new Calculator();
-                        Console.WriteLine(calculator.calc(teheAsString, arv1, arv2));
-            */
-            Console.WriteLine(Calculator.calc2(teheAsString, arv1, arv2));
+            try
+            {
+                var result = Calculator.calc2(teheAsString, arv1, arv2);
+                Console.WriteLine(result);
 
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
         }
     }
 }

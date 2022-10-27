@@ -8,29 +8,33 @@ namespace kalkulaator_console
 
     class Calculator
     {
-/*
-        IDictionary<string, PerformCalculation> operations;
-        public Calculator()
-        {
-            this.operations = new Dictionary<string, PerformCalculation>();
-            this.operations.Add("+", (double arv1, double arv2) => { return arv1 + arv2; });
-            this.operations.Add("-", (double arv1, double arv2) => { return arv1 - arv2; });
-            this.operations.Add("*", (double arv1, double arv2) => { return arv1 * arv2; });
-            this.operations.Add("/", (double arv1, double arv2) => { return arv1 / arv2; });
-        }
 
-        public double calc(string operation, double arv1, double arv2)
+        public static double calc2(string operation, double arv1, double arv2)
         {
+            var operations = new Dictionary<string, PerformCalculation>();
+            operations.Add("+", (double arv1, double arv2) => { return arv1 + arv2; });
+            operations.Add("-", (double arv1, double arv2) => { return arv1 - arv2; });
+            operations.Add("*", (double arv1, double arv2) => { return arv1 * arv2; });
+            operations.Add("/", (double arv1, double arv2) => { 
+                if (arv2 == 0)
+                {
+                    throw new DivideByZeroException("You cannot divide by zero.");
+                }
+                return arv1 / arv2; 
+            });
+
             PerformCalculation action;
-            if (this.operations.TryGetValue(operation, out action))
+            if (operations.TryGetValue(operation, out action))
             {
                 return action(arv1, arv2);
             }
 
+            // when operation is not "+" "-" "*" "/"
+
             throw new ApplicationException("Not supported operation");
         }
-*/
-        public static double calc2(string operation, double arv1, double arv2)
+
+        /*public static double? calc3(string operation, double arv1, double arv2)
         {
             var operations = new Dictionary<string, PerformCalculation>();
             operations.Add("+", (double arv1, double arv2) => { return arv1 + arv2; });
@@ -43,8 +47,10 @@ namespace kalkulaator_console
             {
                 return action(arv1, arv2);
             }
-
-            throw new ApplicationException("Not supported operation");
-        }
+            else
+            {
+                return null;
+            }
+        }*/
     }
 }
