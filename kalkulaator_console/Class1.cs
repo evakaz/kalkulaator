@@ -6,8 +6,17 @@ namespace kalkulaator_console
 {
     public delegate double PerformCalculation(double arv1, double arv2);
 
-    class Calculator
+    public class Calculator
     {
+        public static void nothing(int a)
+        {
+        }
+
+        public static string convertFromInt(int a)
+        {
+            return a.ToString();
+        }
+
 
         public static double calc2(string operation, double arv1, double arv2)
         {

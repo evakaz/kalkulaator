@@ -18,7 +18,6 @@ C:\Users\lexae\source\repos\kalkulaator\kalkulaator_console\bin\Debug\netcoreapp
 C:\Users\lexae\source\repos\kalkulaator\kalkulaator_console\bin\Debug\netcoreapp3.1\kalkulaator_console.runtimeconfig.dev.json
 C:\Users\lexae\source\repos\kalkulaator\kalkulaator_console\bin\Debug\netcoreapp3.1\kalkulaator_console.dll
 C:\Users\lexae\source\repos\kalkulaator\kalkulaator_console\bin\Debug\netcoreapp3.1\kalkulaator_console.pdb
-C:\Users\lexae\source\repos\kalkulaator\kalkulaator_console\obj\Debug\netcoreapp3.1\kalkulaator_console.csproj.AssemblyReference.cache
 C:\Users\lexae\source\repos\kalkulaator\kalkulaator_console\obj\Debug\netcoreapp3.1\kalkulaator_console.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\lexae\source\repos\kalkulaator\kalkulaator_console\obj\Debug\netcoreapp3.1\kalkulaator_console.AssemblyInfoInputs.cache
 C:\Users\lexae\source\repos\kalkulaator\kalkulaator_console\obj\Debug\netcoreapp3.1\kalkulaator_console.AssemblyInfo.cs
